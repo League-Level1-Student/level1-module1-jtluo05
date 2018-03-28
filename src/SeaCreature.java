@@ -14,7 +14,7 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
 public class SeaCreature {
-
+String test;
 	private String name;
 
 	SeaCreature(String name) {
