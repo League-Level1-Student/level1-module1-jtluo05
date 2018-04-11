@@ -8,24 +8,31 @@
 7. Override the default toString() method by implementing a toString() method on the Person class that returns "<name> has mad <superpower> skills". 
 */
 public class Person {
-private String name="Jordan";
-private String power="awesomeness";
+	private String name = "Jordan";
+	private String power = "awesomeness";
+	private String name1 = "Jessica";
+	private String power1 = "nothing";
+	private String name2 = "Jackie";
+	private String power2 = "coolness";
 
+	String getName() {
+		return name;
+	}
 
-String getName() {
-	return name;
-}
+	String getPower() {
+		return power;
+	}
 
-String getPower() {
-	return power;
-}
+	public void setPower(String p) {
+		power = p;
+	}
 
-public void setPower(String p) {
-	power = p;
-}
+	public void setName(String n) {
+		name = n;
+	}
 
-public void setName(String n) {
-	name = n;
-}
+	public String toString() {
 
+		return name + " has mad " + power + " skills";
+	}
 }
